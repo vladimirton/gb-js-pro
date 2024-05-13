@@ -1,0 +1,80 @@
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f4f4f4;
+ margin: 0;
+ padding: 20px;
+ color: #333;
+}
+
+input[type="text"], textarea {
+ width: 300px;
+ padding: 10px;
+ margin-top: 5px;
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ box-sizing: border-box; /* Учитывает padding и border в ширине элемента */
+}
+
+textarea {
+ height: 100px;
+ resize: vertical; /* Позволяет пользователю изменять размер только вертикально */
+}
+
+button {
+ padding: 10px 20px;
+ margin-top: 10px;
+ background-color: #5cb85c;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+button:hover {
+ background-color: #4cae4c;
+}
+
+h1 {
+ color: #555;
+}
+
+.review {
+ background-color: white;
+ padding: 15px;
+ margin-top: 20px;
+ border-radius: 5px;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h3 {
+ cursor: pointer;
+ color: #337ab7;
+}
+
+ul {
+ list-style-type: none;
+ padding: 0;
+}
+
+li {
+ padding: 5px;
+ border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+ border-bottom: none;
+}
+
+li button {
+ padding: 3px 6px;
+ margin-left: 10px;
+ background-color: #d9534f;
+ color: white;
+ border: none;
+ border-radius: 3px;
+ cursor: pointer;
+}
+
+li button:hover {
+ background-color: #c9302c;
+}

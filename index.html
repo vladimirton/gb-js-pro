@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Отзывы о продуктах</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .review { margin-bottom: 10px; }
+        .review button { margin-left: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Добавить отзыв</h1>
+    <input type="text" id="productName" placeholder="Название продукта">
+    <textarea id="reviewText" placeholder="Текст отзыва"></textarea>
+    <button onclick="addReview()">Добавить отзыв</button>
+
+    <h1>Отзывы о продуктах</h1>
+    <div id="reviewsContainer"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
